@@ -16,7 +16,7 @@ const DarkTheme = () => {
 
     return (
         <div className='flex items-center mr-3'>
-            {/* Created a button to toggle between light mode and dark mode */}
+            { /* Created a button to toggle between light mode and dark mode */}
             <span className="mx-2 font-medium text-gray-900 dark:text-gray-100">Light</span>
             <label className="relative inline-flex items-center cursor-pointer">
                 <input onClick={ToggleTheme} type="checkbox" value="" className="sr-only peer" />

@@ -28,7 +28,7 @@ const CreateFlashCards = () => {
       inputRef.current.push(el);
     }
   }
-  // created a notification to show image validation
+  // created a notification to show image validation[,
   const imgError = (val) => {
     toast.warn(val, {
       position: "top-center",
