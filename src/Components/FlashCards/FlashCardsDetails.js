@@ -147,7 +147,7 @@ const FlashCardsDetails = () => {
       </div>
 
 
-      <ShareModel onClose={onClose} visible={visible} />
+  x
 
 
 
